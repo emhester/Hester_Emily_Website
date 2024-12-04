@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emily Hester Photography - Home</title>
+    <link rel="stylesheet" href="https://use.typekit.net/nlw7tzl.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=menu" />
+</head>
+
+<body>
+    <aside id="side-menu" class="side-menu">
+        <button class="close-menu" onclick="closeNav()">
+            <span class="material-symbols-outlined">X</span>
+        </button>
+        <div id="menu-links" class="menu-links">
+            <a href="#">About</a>
+            <a href="#">Portfolio</a>
+            <a href="#">Conact</a>
+            <a href="#">Booking</a>
+        </div>
+    </aside>
+
+    <header class="header">
+        <nav class="nav">
+            <a href="#" class="nav-link">About</a>
+            <a href="#" class="nav-link">Portfolio</a>
+        </nav>
+        <img src="images/Website-Logo.png" width="200" alt="Emily Hester Photography Logo">
+        <nav class="nav">
+            <a href="#" class="nav-link">Contact</a>
+            <a href="#" class="nav-link">Booking</a>
+        </nav>
+        <div class="h-menu">
+            <button class="material-symbols-outlined btn" onclick="openNav()">menu</button>
+        </div>
+    </header>
+    <!-- Hero Section -->
+    <section class="hero-image margin-bottom-lg">
+        <div class="hero-text">
+            <h1>Where Your Best Moments Live Forever</h1>
+            <a href="#" class="btn">Book Now</a>
+        </div>
+    </section>
+    <!-- Photography types offered section -->
+    <section class="container">
+        <div class="margin-bottom-lg">
+            <article>
+                <h2>Couples, Special Events, Solo Portraits, and More!</h2>
+                <p class="margin-bottom-lg">Capturing life's meaningful moments through couples' sessions, special
+                    events like graduation
+                    and school dances, or solo portraits. </p>
+            </article>
+            <div class="row flex-wrap hover-container">
+                <div class="col-lg-4 col-sm-12 pos-rel">
+                    <div class="pos-rel">
+                        <img src="images/Couples-Image.JPG" width="329" height="440" alt="Couples sample photo."
+                            class="styles-image">
+                        <div class="overlay">
+                            <div class="text">Couples</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 pos-rel">
+                    <div class="pos-rel">
+                        <img src="images/Solo-Portraits-Image.jpg" width="329" height="440"
+                            alt="Solo Portraits sample photo" class="styles-image">
+                        <div class="overlay">
+                            <div class="text">Solo Portraits</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 pos-rel">
+                    <div class="pos-rel">
+                        <img src="images/Special-Events-Image.jpg" width="329" height="440"
+                            alt="Special Events sample photo" class="styles-image">
+                        <div class="overlay">
+                            <div class="text">Special Events</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About the Photographer Section -->
+    <section>
+        <article>
+            <h2 class="margin-bottom-md">Meet your Photographer, Emily!</h2>
+        </article>
+        <div class="row flex-wrap">
+            <div class="col-lg-6 col-sm-12 margin-bottom-lg">
+                <img src="images/Meet-Photographer-Image.jpeg" width="330" alt="Picture of your photographer"
+                    class="img-spacing">
+            </div>
+            <div class="text-container col-lg-6 col-sm-12">
+                <p>I am based in Southern California and Phoenix, Arizona during some parts of the year. Photography
+                    is
+                    my passion and I would love to help capture your most special moments in life. Check out some of
+                    my
+                    work!
+                </p>
+                <a href="#" class="btn btn-spacing">See Portfolio</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Us Form -->
+     <section>
+        <h2>Let's Get Started!</h2><br>
+        <p class="container spacing">If you're interested in booking a session or would like more information, I'd love to chat with you! Start by filling out the contact form below to give me an idea of what you are looking for.</p><br>
+        <form action="https://formsubmit.co/ehester3@my.gcu.edu" method="POST" class="signup-form">
+            <div class="spacing">
+                <label class="font-size">First Name</label><br>
+                <input type="text" name="First Name" placeholder="Jane">
+            </div>
+            <div class="spacing">
+                <label class="font-size">Last Name</label><br>
+                <input type="text" name="Last Name" placeholder="Smith">
+            </div>
+            <div class="spacing">
+                <label class="font-size">Email</label><br>
+                <input type="email" name="Email" placeholder="youremail@here.com">
+            </div>
+            <div>
+                <label class="font-size">Telephone</label>
+                <input type="tel" name="Telephone" placeholder="(123) 456 7890">
+            </div><br>
+            <label class="font-size">Message</label>
+            <textarea name="Comments" class="comments" placeholder="What type of session are you looking for? Additional questions and comments..."></textarea><br>
+            <button type="submit" class="btn">Sign Up!</button>
+        </form><br>
+    </section>
+
+
+
+
+    <footer class="bg-color">
+        <!-- First Column in the Footer-->
+        <div class="row flex-wrap margin-bottom-md">
+            <div class="col-lg-4">
+                <p class="text-align-left">Home</p>
+                <p class="text-align-left">About</p>
+                <p class="text-align-left">Portfolio</p>
+            </div>
+            <!-- Second Column in the Footer-->
+            <div class="col-lg-4">
+                <p class="text-align-left">Couples</p>
+                <p class="text-align-left">Portraits</p>
+                <p class="text-align-left">Events</p>
+            </div>
+            <!-- Third Column in the Footer-->
+            <div class="col-lg-4">
+                <p class="text-align-left">Contact</p>
+                <p class="text-align-left">Booking</p>
+            </div>
+        </div>
+        <!-- Small area that goes under all the colums in the footer-->
+        <div class="row">
+            <div class="col-lg-6">
+                <img class="margin-bottom-sm" src="images/Website-Logo.png" width="200"
+                    alt="Emily Hester Photography Logo">
+            </div>
+            <div class="col-lg-6 socials margin-top-sm">
+                <a href="https://www.instagram.com/emhesterphotos/"><img src="images/instagram-logo.png" width="30"
+                        alt="Instagram logo link"></a>
+                <a href="https://www.facebook.com/"><img src="images/facebook-logo.png" width="29"
+                        alt="Facebook logo link"></a>
+            </div>
+        </div>
+    </footer>
+    <script>
+        function closeNav() {
+            document.getElementById("side-menu").style.width = "0";
+        }
+        function openNav() {
+            document.getElementById("side-menu").style.width = "250px";
+        }
+    </script>
+      
+</body>
+
+</html>
